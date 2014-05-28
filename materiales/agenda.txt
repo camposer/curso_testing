@@ -1,0 +1,14 @@
+Conceptos
+
+Testing
+- Unitarias
+- Integración
+- Sistema
+- Aceptación
+- Regresión
+
+Enfoques
+- TDD
+- BDD
+
+Integración continua

@@ -1,0 +1,15 @@
+XUnit
+=====
+
+Están basados en aserciones!
+
+assertEquals(caluladora.sumar(2, 2), 5); => Falla!
+
+JUnit
+=====
+
+@BeforeClass (1 -> Cuando se carga la clase de pruebas)
+	@Before (N -> Por cada prueba)
+		@Test (1 -> Es una prueba)
+	@After (N -> Por cada prueba)
+@AfterClass (1 -> Cuando termina la clase de pruebas)

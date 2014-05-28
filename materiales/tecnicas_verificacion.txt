@@ -1,0 +1,15 @@
+eXtreme Programming
+http://www.extremeprogramming.org
+
+Pair programming
+http://es.wikipedia.org/wiki/Programaci%C3%B3n_en_pareja
+
+Code Review
+http://en.wikipedia.org/wiki/Code_review
+
+Peer Review
+http://en.wikipedia.org/wiki/Peer_review
+
+Expert Review
+
+Checklists
