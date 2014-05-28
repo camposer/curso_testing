@@ -2,10 +2,12 @@ package com.example.testing.service;
 
 import org.springframework.stereotype.Service;
 
+import com.example.testing.exception.DivisorInvalidoException;
+import com.example.testing.exception.SustraendoInvalidoException;
 import com.example.testing.util.Natural;
 
 @Service
-public class CalculadoraService {
+public class CalculadoraService implements ICalculadoraService {
 	public Natural sumar(Natural a, Natural b) {
 		return new Natural(a.getN() + b.getN());
 	}

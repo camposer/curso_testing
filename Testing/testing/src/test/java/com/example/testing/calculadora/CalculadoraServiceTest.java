@@ -7,17 +7,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.example.testing.exception.DivisorInvalidoException;
 import com.example.testing.exception.NaturalInvalidoException;
-import com.example.testing.service.CalculadoraService;
-import com.example.testing.service.DivisorInvalidoException;
-import com.example.testing.service.SustraendoInvalidoException;
+import com.example.testing.exception.SustraendoInvalidoException;
+import com.example.testing.service.ICalculadoraService;
 import com.example.testing.util.Natural;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations={"classpath:applicationContext.xml"})
+@ContextConfiguration(locations={"classpath:applicationContext-test.xml"})
 public class CalculadoraServiceTest {
 	@Autowired
-	private CalculadoraService calculadoraService;
+	private ICalculadoraService calculadoraService;
 
 	@Test(expected=NaturalInvalidoException.class)
 	public void validarNatural() {

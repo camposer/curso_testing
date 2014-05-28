@@ -2,13 +2,28 @@ Conceptos
 
 Testing
 - Unitarias
+	- JUnit
+	- Dummy Object
 - Integración
+	- JUnit
+	- Base de Datos en Memoria (HSQLDB)
+	- Servidores de Aplicación liviano (geronimo, jetty)
+	- Mockup (Mockito)
 - Sistema
+	- Selenium
+	- Base de Datos (y Spring)
 - Aceptación
+	- Concordion
+	- FitNesse
 - Regresión
 
 Enfoques
-- TDD
-- BDD
+- TDD (Test Driven Development)
+- BDD (Behaviour Driven Development)
+	- Cucumber-JVM
+- MDD - Scaffolding
 
 Integración continua
+	- Sonar (Cobertura de Código)
+	- Eclemma (Cobertura de Código integrada en Eclipse)
+	- Jenkins (Integración Continua)
